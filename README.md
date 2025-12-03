@@ -5,12 +5,15 @@ Complete Amiga OS development kit setup for cross-compilation on Windows with VB
 ## 🚀 Quick Start
 
 ```powershell
-# Clone and setup
-git clone https://github.com/vbuzzano/AmigaDevBox.git MyProject
+# Run the interactive installer
+irm https://github.com/vbuzzano/AmigaDevBox/raw/main/install.ps1 | iex
+
+# Follow the wizard to create your project
+# Then install packages:
 cd MyProject
 .\box.ps1 install
 
-# Build your first project
+# Build your project
 make
 ```
 
